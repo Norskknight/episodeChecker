@@ -1,0 +1,29 @@
+.contaner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.images{
+    grid-gap: 10px;
+    display: grid;
+    border-style: solid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+.title{
+  font-size: 250%;
+  justify-self:center;
+}
+.post {
+  height: 60px;
+  width: inherit;
+  border-style: solid; 
+}
+.date {
+  font-size: 75%;
+}
+body {
+  background-color: lightblue;
+ 
+  
+}
